@@ -69,7 +69,7 @@ INSERT INTO orders(id, registration_date, customer_name, phone_num, email, deliv
 INSERT INTO order_lines(order_id, item, order_price, order_quantity) value        
 (6, '3251617', 4000, 2);
 
-SELECT * FROM accss.orders;
+SELECT * FROM accessToProduct.orders;
 /*
 список заказов, созданных: в ноябре, в декабре;
 */
